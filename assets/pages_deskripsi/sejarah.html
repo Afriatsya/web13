@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sejarah Organisasi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../style.css"> 
+  <script src="../script.js" defer></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  
+  <header class="bg-blue-600 text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto px-6">
+      <h1 class="text-heading">Sejarah Organisasi</h1>
+      <p class="text-paragraf">HIPMI PARE Kom. Bandar Madani</p>
+    </div>
+  </header>
+  <section class="header-section">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <b><h2 class="heading2">Perjalanan Kami Sejak Awal</h2></b>
+      <p class="paragraf2">
+        Menjadi saksi tumbuhnya semangat kolaborasi dan kontribusi para mahasiswa Parepare
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <div class="mb-12">
+      <h3 class="heading3">Awal Berdiri</h3>
+      <br>
+      <p class="paragraf3">
+        Himpunan Pelajar Mahasiswa Parepare Indonesia (HIPMI PARE) merupakan organisasi kedaerahan yang mewadahi pelajar dan mahasiswa asal Kota Parepare.
+        Organisasi ini didirikan di Makassar pada tanggal 12 Januari 1964, dengan nama awal Kesatuan Pelajar Mahasiswa Parepare (KPMP) yang telah berdiri sejak 15 Maret 1956. 
+        HIPMI PARE digagas oleh tokoh-tokoh inspiratif seperti Asyah Asyik, Sayfuddin Makka, dan Andi Degong. <br><br>sementara itu, HIPMI Pare Komisariat Bandar Madani didirikan pada 
+        31 Oktober 2015 sebagai bagian dari Pengurus Pusat HIPMI Pare periode 2014–2016. Pembentukan komisariat ini diprakarsai oleh mahasiswa asal Parepare yang berdomisili dan 
+        berkuliah di kota tersebut. Karateker pertama adalah Kakanda Hidayat Askam, dan Ketua pertama adalah Zulkifli Triadi.
+      </p>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="heading4">Fondasi Nilai dan Kepengurusan HIPMI PARE</h3>
+      <br>
+      <p class="paragraf4">
+        Berlandaskan nilai-nilai budaya Bugis-Makassar yaitu Sipakatau, Sipakainge, dan Sipakamase, HIPMI PARE menjunjung tinggi nilai 
+        saling menghargai, saling mengingatkan, dan saling menyayangi. Organisasi ini terdiri dari sembilan komisariat,
+        yaitu: Komisariat UNM, UNHAS, UMI, UNIBOS, UIN Alauddin, Politeknik, STIMIK, Bandar Madani, dan Komisariat Pelajar. 
+        Selain itu, terdapat dua badan otonom yang aktif, yakni Pecinta Alam 360 dan SIMHPONI.
+        <br>
+        <br>
+        Hingga kini, HIPMI PARE terus aktif menjalankan aktivitas organisasi dan berkomitmen mencetak kader-kader 
+        unggul sebagai generasi penerus yang siap membangun Kota Parepare di masa depan.
+
+
+      </p>
+    </div>
+
+  </section>
+
+  
+  <section class="bg-white py-12 px-6">
+    <h3 class="heading5">Tonggak Sejarah</h3>
+    <div class="class1">
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-600">[1964]</h4>
+        <p class="text-gray-700">HIPMI PARE didirikan dan mulai merancang struktur organisasi pertama.</p>
+      </div>
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-600">[Tahun Kegiatan Besar]</h4>
+        <p class="text-gray-700">Mengadakan kegiatan sosial berskala kota yang melibatkan pelajar dan warga.</p>
+      </div>
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-600">[Tahun Modernisasi]</h4>
+        <p class="text-gray-700">Mulai membangun website resmi dan sistem keanggotaan online.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="interaction-section">
+    <div class="interaction-container">
+      <h3 class="interaction-title">Bagikan Pendapatmu!</h3>
+  
+      <div class="interaction-buttons">
+        <button onclick="likePost(this)" class="like-button">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+  
+        <button onclick="sharePost()" class="share-button">
+          🔗 Share
+        </button>
+      </div>
+  
+      <div class="comment-box">
+        <form onsubmit="postComment(event, this)" class="comment-form">
+          <input type="text" placeholder="Tulis komentar..." required class="comment-input">
+          <button type="submit" class="comment-submit">Kirim</button>
+        </form>
+  
+        <div class="comment-list">
+          <!-- Komentar akan muncul di sini -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="footer1">
+    <p>&copy; 2025 HIPMI PARE Kom. Bandar Madani. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

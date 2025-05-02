@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HIPMI PARE </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="hipmi-removebg-preview.png" alt="Logo HIPMI PARE" />
+    <h1>HIMPUNAN PELAJAR MAHASISWA INDONESIA PAREPARE<br>KOMISARIAT BANDAR MADANI</h1>
+    <p class="tagline">Sipakatau, Sipakainge, Sipakamase</p>
+    <div class="header-buttons">
+      <a href="#"id="lihatProgramBtn">Lihat Program</a>
+      <a href="assets/pages_lainnya/daftar.html">Gabung Sekarang</a>
+    </div>
+  </header> 
+  <hr>
+  <main id="programSection" style="display: none;">
+    <div class="card">
+      <h1><b>Informasi Deskripsi</b></h1>
+      <p>Mengenal Profil Organisasi, Sejarah Organisasi, Visi dan Misi Dari Organisasi Hipmi Pare Kom Bandar Madani</p>
+      <br>
+      <a href="#" class="cta-button" onclick="toggleDropdown('submenu', event)">Lihat Submenu
+        <span class="arrow">▼</span>
+      </a>
+
+      <ul id="submenu" class="dropdown-submenu">
+        <li><a href="assets/pages_deskripsi/profil.html"> Profil Organisasi</a></li>
+        <li><a href="assets/pages_deskripsi/sejarah.html"> Sejarah Organisasi</a></li>
+        <li><a href="assets/pages_deskripsi/visi misi.html"> Visi dan Misi</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h1><b>Informasi Program Kerja</b></h1>
+      <p>Mengenal Event, Pengkaderan, BM Mengabdi  Dari Organisasi Hipmi Pare Kom Bandar Madani</p>
+      <br>
+      <a href="#" class="cta-button" onclick="toggleDropdown('submenu2', event)">Lihat Submenu
+        <span class="arrow">▼</span>
+      </a>
+
+      <ul id="submenu2" class="dropdown-submenu">
+        <li><a href="assets/pages_program kerja/event.html"> Event</a></li>
+        <li><a href="assets/pages_program kerja/pengkaderan.html"> Pengkaderan</a></li>
+        <li><a href="assets/pages_program kerja/bm mengabdi.html"> BM Mengabdi</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h1><b>Informasi Kepengurusan</b></h1>
+      <p>Mengenal Profil Kepengurusan, Struktur Kepengurusan  Dari Organisasi Hipmi Pare Kom Bandar Madani</p>
+      <br>
+      <a href="#" class="cta-button" onclick="toggleDropdown('submenu3', event)">Lihat Submenu
+        <span class="arrow">▼</span>
+      </a>
+
+      <ul id="submenu3" class="dropdown-submenu">
+        <li><a href="assets/pages_kepengurusan/profil pengurus.html"> Profil Kepengurusan</a></li>
+        <li><a href="assets/pages_kepengurusan/struktur.html" > Struktur Kepengurusan</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h1>Dokumentasi lainnya</h1>
+      <p>Lihat dokumentasi kegiatan selengkapnya....</p>
+      <br>
+      <a href="#" class="cta-button" onclick="toggleDropdown('gallery-content', event)">Lihat Galeri
+        <span class="arrow">▼</span>
+      </a>
+      <div id="gallery-content" class="gallery1 hidden">
+        <img src="assets/WhatsApp Image 2025-04-12 at 12.31.36_6f79a5c8.jpg" class="g" />
+        <img src="assets/WhatsApp Image 2025-04-12 at 12.31.36_fc733ead.jpg" class="g" />
+        <img src="assets/WhatsApp Image 2025-04-12 at 12.31.37_df4f7f50.jpg" class="g" />
+        <img src="assets/WhatsApp Image 2025-04-12 at 12.34.12_260dfa18.jpg" class="g" />
+        <img src="assets/WhatsApp Image 2025-04-12 at 12.34.24_c923b5c9.jpg" class="g" />
+      </div>
+    </div>
+
+    <div class="card">
+      <h1>Gabung HIPMI</h1>
+      <p>Ingin menjadi bagian dari kami?</p>
+      <br>
+      <a href="assets/pages_lainnya/daftar.html" class="cta-button" onclick="toggleDropdown('Daftar')">Daftar</a>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 HIPMI PARE Kom. Bandar Madani</p>
+    <p>Instagram | Email | Lokasi</p>
+  </footer>
+</body>
+</html>
+

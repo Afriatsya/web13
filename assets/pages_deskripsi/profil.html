@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Organisasi - HIPMI PARE</title>
+  <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="../profil.css"> 
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header class="header1">
+    <div class="container1">
+      <img src="../../assets/hipmi-removebg-preview.png" class="logo1" />
+      <h1 class="title1">HIMPUNAN PELAJAR MAHASISWA INDONESIA PAREPARE</h1>
+      <p class="subtitle1">Komisariat Bandar Madani</p>
+    </div>
+  </header>
+
+  <main class="main-section1">
+    <section class="profile-section1">
+      <div class="container1 profile-container1">
+        <div class="profile-text1">
+          <h2>Profil Organisasi</h2>
+          <p>
+            Himpunan Pelajar Mahasiswa Indonesia Parepare (HIPMI PARE) Komisariat Bandar Madani adalah organisasi kepemudaan yang berfokus pada pengembangan intelektual, sosial, dan kepemimpinan mahasiswa dari Parepare. Organisasi ini menjadi wadah aktualisasi diri serta tempat berkumpulnya mahasiswa yang memiliki semangat kolaboratif dan kontribusi nyata bagi masyarakat.
+          </p>
+          <p>
+            Kami berkomitmen untuk menciptakan kader-kader yang unggul, progresif, dan berdaya saing tinggi, serta menjalin hubungan yang solid antara sesama anggota demi kemajuan bersama.
+          </p>
+        </div>
+        <div class="profile-image1">
+          <img src="" alt="Kegiatan HIPMI" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="halamanprofil">
+    <div class="kotak1">
+      <h3 class="tentang123">Bagikan Pendapatmu!</h3>
+  
+      <div class="button-like">
+        <button onclick="likePost(this)" class="like-button">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+  
+        <button onclick="sharePost()" class="share-button">
+          🔗 Share
+        </button>
+      </div>
+  
+      <div class="comment-box">
+        <form onsubmit="postComment(event, this)" class="comment-form">
+          <input type="text" placeholder="Tulis komentar..." required class="comment-input">
+          <button type="submit" class="comment-submit">Kirim</button>
+        </form>
+  
+        <div class="comment-list">
+          <!-- Komentar akan muncul di sini -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer1">
+    <p>&copy; 2025 HIPMI PARE Komisariat Bandar Madani</p>
+  </footer>
+</body>
+</html>
+
